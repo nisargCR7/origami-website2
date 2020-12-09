@@ -1,0 +1,222 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ .main-content{
+  width: 80%; 
+  margin: 20px auto;
+ }
+
+ .top-header{
+  width: 100%;
+  float: left;
+ }
+ .logo-width{
+  width: 50%;
+  float: left;
+ }
+ .navgation{
+
+  float: right;
+ }
+ .container{
+  width: 100%;
+  float: left;
+ }
+
+  .top-header a.button1{
+    display: inline-block;
+    padding:0.35em 1.2em;
+    background-color:#000000;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 20px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    position:relative;
+    
+    }
+    .top-header a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+    @media all and (max-width:30em){
+     .top-header a.button1{
+    display:block;
+    margin:0.4em auto
+     }
+    }
+   
+    #section1{
+      background-color:#000000;
+      width: 100%;
+      float: left;
+      margin: 10% 0px 10px 0px;
+      border-radius: 50px 50px 50px 50px;
+    }
+    #section2{
+      /* background-color:#FFFFFF; */
+      width: 100%;
+      float: left;
+      margin: 10px 0px 10px 0px;
+      border-radius: 50px 50px 50px 50px;
+    }
+    #section3{
+      background-color:#000000;
+      width: 100%;
+      float: left;
+      margin: 10px 0px 0px 0px;
+    }
+    
+     .container p {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 100px;
+      font-family: 'Archivo';
+      margin-top: 10%;
+    }
+
+    .para p {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family: 'Archivo';
+      padding-left: 100px;
+      padding-right: 100px;
+      
+
+    }
+    .main-para p {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 60px;
+      font-family: 'Archivo';
+
+    }
+    .section-container {
+      padding: 50px;
+    }
+  
+    .images img.image1{
+      width: 39%;
+      height: 39%;
+      filter: gray;
+      -webkit-filter: grayscale(1); 
+      transition: all .8s ease-in-out;
+      border-radius: 20px 20px 20px 20px;
+      margin-left: 4.8%;
+      margin-right: 4.8%;
+      margin-bottom:4.8% ;
+
+    }
+           
+    .images img.image1:hover{
+    filter: grayscale(0);
+    width:40%;
+    height:40%;
+  }
+
+  .images a.corona-game img{
+    width: 53%;
+    height: 53%;
+    transition: all .8s ease-in-out;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 23%;
+    margin-right: 23%;
+
+  }
+         
+  .images a.corona-game img:hover{
+  width:55%;
+  height:55%;
+}
+    .images{
+      position: relative;
+
+    }
+    .headings p{
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family: 'Archivo';
+      padding-left: 100px;
+      padding-right: 100px;
+      
+    }
+    .name1 p{
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: 'Archivo';
+      margin-left: 15%;
+      margin-right: 10%;
+      display: inline-block;
+      margin-top: 0px;
+        }
+      
+      .name2 p{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Archivo';
+        margin-left: 17%;
+        margin-right: 17%;
+        display: inline-block;
+        margin-top: 0px;
+        }
+    .name3 p{
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: 'Archivo';
+      margin-left: 18.5%;
+      margin-right: 19%;
+      display: inline-block;
+      margin-top: 0px;
+      } 
+    .name4 p{
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: 'Archivo';
+      margin-left: 18.5%;
+      margin-right: 19%;
+      display: inline-block;
+      margin-top: 0px;
+      }
+      .contact p{
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: 'Archivo';
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+      }
+
+
+      .contact p img{
+        width: 7%;
+        height:7%;
+        filter: gray;
+        -webkit-filter: grayscale(1); 
+        transition: all .8s ease-in-out;
+        margin-left: 35%;
+        margin-right: 1%;
+        margin-bottom:1% ;
+        position: relative;
+      }
+      .contact p img:hover{
+        filter: grayscale(0);
+        width:7.5%;
+        height:7.5%;
+      }
+      
+      
+      
+      
